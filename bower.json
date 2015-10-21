@@ -1,0 +1,21 @@
+{
+  "name": "angularRx",
+  "version": "0.0.0",
+  "homepage": "https://github.com/david1983/angularJS-rxJS",
+  "authors": [
+    "davide <davideandreazzini@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "rxjs": "~4.0.6"
+  }
+}

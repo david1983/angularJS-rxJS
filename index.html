@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+<head>
+    <meta charset="utf-8">
+    <title>JS Bin</title>
+</head>
+<body ng-controller="myctrl">
+<input type="text" ng-model="myterm">
+<br><br>
+
+
+<div ng-repeat="movie in data.data.results">
+    <movie-box movie-data="movie"></movie-box>
+</div>
+
+
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/rxjs/dist/rx.all.min.js"></script>
+
+
+<script src="script/app.js"></script>
+<script src="script/services/moviesdb.js"></script>
+<script src="script/directives/moviebox.js"></script>
+</body>
+</html>
